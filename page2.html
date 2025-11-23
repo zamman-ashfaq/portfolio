@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <title>Projects - Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #331d41;
+      }
+
+      header {
+        background: #51285b;
+        padding: 8px;
+        color: white;
+        text-align: center;
+      }
+      nav {
+        background: #1e1330;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        background-color: #1e1330;
+        font-size: 18px;
+      }
+
+      nav a:hover {
+        color: pink;
+        font-size: 20px;
+        transition: 1s;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .section-box {
+        background-color: #51285b;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        color: white;
+      }
+   
+
+
+      .project-img {
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 10px;
+      }
+      .project-card {
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #e0e0e0;
+      }
+      .skills-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 10px;
+      }
+
+      .skill-item {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px 18px;
+        color: #ffe4ff;
+        font-size: 17px;
+        border-radius: 10px;
+        cursor: pointer;
+        backdrop-filter: blur(5px);
+        transition: 0.3s ease;
+      }
+
+      .skill-item:hover {
+        background: #d76bf2;
+        color: #1e1330;
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.3);
+      }
+
+      footer {
+        text-align: center;
+        padding: 15px;
+        background: #1e1330;
+        color: white;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Projects</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">About Us</a>
+      <a href="page2.html">Projects</a>
+    </nav>
+
+    <div class="container">
+      <section class="section-box">
+        <h2>Work Experience</h2>
+        <p>
+          I have completed many small projects like calculater or portfolio.
+        </p>
+      </section>
+
+      <section class="section-box">
+        <h2>Skills</h2>
+        <div class="skills-box">
+          <div class="skill-item">HTML</div>
+          <div class="skill-item">CSS</div>
+          <div class="skill-item">C++</div>
+          <div class="skill-item">Canva</div>
+          <div class="skill-item">GitHub</div>
+          <div class="skill-item">Scratch</div>
+          <div class="skill-item">C</div>
+          <div class="skill-item">Power point</div>
+          <div class="skill-item">Excel</div>
+        </div>
+      </section>
+      <section class="section-box">
+        <h2>My Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>2. Login Page UI Design</h3>
+          <p>A modern login page interface designed using HTML & CSS.</p>
+
+          <p style="color: white">View Project</p>
+          <a
+            href="loginpage.html"
+            style="
+              color: black;
+              font-family: 'Times New Roman', Times, serif;
+              text-decoration: none;
+              background: #51285b;
+              padding: 8px 12px;
+              border-radius: 4px;
+              display: inline-block;
+            "
+          >
+            <div
+              style="
+                background-color: pink;
+                border: none;
+                width: 150%;
+                border-radius: 30px;
+                height: 50%;
+                text-align: center;
+              "
+            >
+              Login
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>3. Calculator UI (HTML + CSS)</h3>
+          <p>A simple calculator user interface created for design practice.</p>
+
+          <p style="color: white">View Project</p>
+          <a
+            href="calculater.html"
+            style="
+              color: black;
+              font-family: 'Times New Roman', Times, serif;
+              text-decoration: none;
+              background: #51285b;
+              padding: 8px 12px;
+              border-radius: 4px;
+              display: inline-block;
+            "
+          >
+            <div
+              style="
+                background-color: pink;
+                border: none;
+                width: 150%;
+                border-radius: 30px;
+                height: 50%;
+                text-align: center;
+              "
+            >
+              Calculator
+            </div>
+          </a>
+        </div>
+        <p>Links</p>
+        
+              <p>My live project</p>
+
+        <p>
+          <a
+            href="https://scratch.mit.edu/projects/1239860433/"
+            target="_blank"
+            class="project-link"
+            style="color: white;
+            text-decoration: underline;"
+          >
+            🔗 View Live Project on Scratch
+          </a>
+        </p>
+      <p>My canva work</p>
+       <i class="fa-regular fa-file-pdf" style="color: #ffffff;"></i> <a href="canva poster.pdf" target="_blank" class="project-link" style="color: white;"> View PDF</a>
+</p>
+      </section>
+      <section class="section-box">
+    <h2>Contact Me</h2>
+    
+    <p>
+        <strong>Email:</strong> <a href="mailto:zammanashfaq65@gmail.com" style="color: #ffd9ff; text-decoration: none;">zammanashfaq65@gmail.com</a>
+    </p>
+    <p>
+        <strong>Phone:</strong> <a href="tel:+923001234567" style="color: #ffd9ff; text-decoration: none;">+92 3057088736</a>
+    </p>
+</section>
+
+    </div>
+
+    <footer>© 2025 My Portfolio | All Rights Reserved</footer>
+  </body>
+</html>

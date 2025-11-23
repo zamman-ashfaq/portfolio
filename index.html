@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #331d41;
+      }
+
+      header {
+        background: #51285b;
+        padding: 8px;
+        color: white;
+        text-align: center;
+      }
+
+      nav {
+        background: #1e1330;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        background-color: #1e1330;
+        font-size: 18px;
+      }
+
+      nav a:hover {
+        color: pink;
+        font-size: 20px;
+        transition: 1s;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+      }
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+
+.about-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    flex: 2;
+    color: white;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+      footer {
+        text-align: center;
+        padding: 15px;
+        background: #1e1330;
+        color: white;
+        margin-top: 30px;
+      }
+      h3 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      .interests-container {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+      }
+
+      .interest-box {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(6px);
+        padding: 12px;
+        color: #ffe4ff;
+        font-size: 18px;
+        border-radius: 12px;
+        transition: 0.3s ease;
+        cursor: pointer;
+      }
+
+      .interest-box:hover {
+        background: #d76bf2;
+        color: #1e1330;
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">About Me</a>
+      <a href="page2.html">Projects</a>
+    </nav>
+ <div class="about-container">
+        <div class="about-img-container">
+            <img src="/portfolio/pic.1.png" alt="Profile Photo" class="about-img" />
+        </div>
+        <div class="about-text">
+            <p style="color: pink">
+                Hello! My name is Zamman Ashfaq. My RollNo is F25BSCS012. I am a student
+                at Kinnaird College For Women University Lahore.
+            </p>
+            <p>
+                I am a BS Computer Science student who loves creating clean websites.
+           
+                I enjoy learning HTML and CSS. This is a simple portfolio project
+                created for my practice.
+            </p>
+        </div>
+    </div>
+        <h3 style="color: white; text-align:center; margin-top: 50px; margin-bottom: 30px;">My Interests</h3>
+        <div class="interests-container" style="justify-content: center; margin-bottom: 50px;">
+          <div class="interest-box">Web Development</div>
+          <div class="interest-box">Designing Websites</div>
+          <div class="interest-box">Learning New Technologies</div>
+        </div>
+      </section>
+    </div>
+
+    <footer>© 2025 My Portfolio | All Rights Reserved</footer>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #331d41, #51285b);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 35px;
+            width: 320px;
+            border-radius: 18px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 25px rgba(0,0,0,0.4);
+        }
+
+        .login-box h2 {
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .input-field {
+            width: 90%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            font-size: 16px;
+        }
+
+        .input-field::placeholder {
+            color: #eac9ff;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background: #d76bf2;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+            transform: translateY(-4px);
+            box-shadow: 0 4px 15px rgba(255,255,255,0.4);
+            color: black;
+        }
+
+        .link {
+            margin-top: 12px;
+            display: block;
+            color: #ffd9ff;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h2>Welcome Back</h2>
+
+        <input type="text" class="input-field" placeholder="Enter Email">
+        <input type="password" class="input-field" placeholder="Enter Password">
+
+        <button class="btn">Login</button>
+
+        <a href="#" class="link">Forgot Password?</a>
+    </div>
+
+</body>
+</html>
